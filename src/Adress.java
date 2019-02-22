@@ -24,18 +24,13 @@ public class Adress {
         String text = in.nextLine();
         char channel = text.charAt(0);
         text = text.replaceAll("\\s+", "");
-        //byte i[];
-
 
         if (channel == '!') {
             byte[] i = Base64.getDecoder().decode((text).substring(1));
             p = new byte[i.length + 1];
             p[0] = ((byte) 0x21);
             arraycopy(i, 0, p, 1, i.length);
-
-            //i = text.getBytes();
             out.println(HexBin.encode(p) + "\n");
-            //System.out.println(serial);
 
         } else if (channel == 'A'| channel == 'a') {
             out.println("TCP");
@@ -44,55 +39,6 @@ public class Adress {
          else {
             out.println("Bad password");
         }
-
-        //Ищем fixedCRC
-        byte fixedCRC = 0;
-        int l;
-        for (l = 2; p[l] <= 15; l++) ;
-        {
-            fixedCRC += p[l];
-
-            //fixedCRC = fixedCRC&0xFF;
-            out.println("FixedCRC " + fixedCRC);
-        }
-
-        /*byte [] sph = new byte[44];
-        arraycopy(p, 17, sph, 0, 44);
-        out.println("sph " + HexBin.encode(sph) + "\n");
-        byte[] gpsnav = new byte[18];
-        arraycopy(p, 62, gpsnav, 0, 18);
-        out.println("gpsnav " + HexBin.encode(gpsnav) + "\n");
-        byte[] tripid = new byte[1];
-        arraycopy(p, 61, tripid, 0, 1);
-        out.println("tripid " + HexBin.encode(tripid) + "\n");
-        byte[] odometer = new byte[4];
-        arraycopy(p, 82, odometer, 0, 4);
-        out.println("odometer " + HexBin.encode(odometer) + "\n");
-        byte[] api = new byte[2];
-        arraycopy(p, 80, api, 0, 2);
-        out.println("api " + HexBin.encode(api) + "\n");
-        byte[] crc = new byte[2];
-        arraycopy(p, 86, crc, 0, 2);
-        out.println("crc " + HexBin.encode(crc) + "\n");*/
-
-//Длина пакета
-
-
-        int packetLenght = (p[2] & 0xFF) + ((p[3] << 8) & 0xFF);
-        System.out.println("Packet lenght " + packetLenght);
-/*
-        byte crc1 = 0;
-        byte crc2 = 0;
-        for (int i = 0; i < packetLenght-2; i++) {
-            crc1 += (p[i]) & 0xFF;
-            System.out.println(HexBin.encode(new byte[]{crc1}));
-            crc2 += (crc1) & 0xFF;
-            System.out.println(HexBin.encode(new byte[]{crc2}));
-        }
-*/
-
-
-
 
         //Разбираем DIV ищем ид типы и направление сообшения
         int MSG_ID = ((p[7] & 0x0F) << 6) + ((p[6] & 0xFC) >>> 2);
