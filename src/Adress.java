@@ -35,7 +35,6 @@ public class Adress {
 
             //i = text.getBytes();
             out.println(HexBin.encode(p) + "\n");
-            //long serial = Location.serial();
             //System.out.println(serial);
 
         } else if (channel == 'A'| channel == 'a') {
@@ -45,8 +44,6 @@ public class Adress {
          else {
             out.println("Bad password");
         }
-        //parse PRS = new parse();
-        //PRS.parse();
 
         //Ищем fixedCRC
         byte fixedCRC = 0;
