@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe5ed4a1-d7ce-4318-9295-b68b3b27ca7b" name="Default" comment="1.1 начало переделки пакета">
-      <change afterPath="$PROJECT_DIR$/src/Sph_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sph/MCC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/guava_23_6_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/guava_23_6_jre.xml" afterDir="false" />
+    <list default="true" id="fe5ed4a1-d7ce-4318-9295-b68b3b27ca7b" name="Default" comment="1.2 создание структуры проекта">
+      <change afterPath="$PROJECT_DIR$/src/Sph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sph/CELL_ID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sph/LAC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sph/MNC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/Adress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/Adress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/GpsNav$Accuracy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/GpsNav$Accuracy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/GpsNav$GpsState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/GpsNav$GpsState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/GpsNav$OffsetValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/GpsNav$OffsetValid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/GpsNav$Ref.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/GpsNav$Ref.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/GpsNav$Valid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/GpsNav$Valid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/GpsNav.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/GpsNav.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/Packet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/RemoteStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/RemoteStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project1/TagAsk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/TagAsk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Adress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sph_05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sph/MCC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sph/MCC.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Adress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="929">
-              <caret line="96" column="46" lean-forward="true" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
+            <state relative-caret-position="551">
+              <caret line="77" column="29" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +37,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sph_05.java">
+        <entry file="file://$PROJECT_DIR$/src/Sph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="105">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,11 +52,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sph/MCC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="86" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sph/MNC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sph/LAC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="55" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sph/CELL_ID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,23 +118,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Header.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="225">
               <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
                 <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
                 <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#922#923#0" expanded="true" />
                 <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
                 <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
                 <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1386#1387#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="e#1737#1738#0" expanded="true" />
                 <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#2187#2188#0" expanded="true" />
                 <element signature="e#2223#2224#0" expanded="true" />
               </folding>
             </state>
@@ -145,7 +171,13 @@
         <option value="$PROJECT_DIR$/src/Header.java" />
         <option value="$PROJECT_DIR$/src/Adress.java" />
         <option value="$PROJECT_DIR$/src/Sph_05.java" />
+        <option value="$PROJECT_DIR$/src/Sph_03-11.java" />
+        <option value="$PROJECT_DIR$/src/Sph_03_11.java" />
+        <option value="$PROJECT_DIR$/src/Sph.java" />
         <option value="$PROJECT_DIR$/src/sph/MCC.java" />
+        <option value="$PROJECT_DIR$/src/sph/MNC.java" />
+        <option value="$PROJECT_DIR$/src/sph/LAC.java" />
+        <option value="$PROJECT_DIR$/src/sph/CELL_ID.java" />
       </list>
     </option>
   </component>
@@ -183,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,13 +231,18 @@
             </path>
             <path>
               <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,15 +251,15 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="ad:21&#9;PSI&#9;JAVA://Adress&#10;re:21&#9;FILE&#9;file://C:/Users/U.Spirin/IdeaProjects/project1/src/Rectangle.java&#10;ещщд&#9;ACTION&#9;HideActiveWindow&#10;ещщд &#9;ACTION&#9;ViewToolButtons&#10;too&#9;ACTION&#9;ViewToolButtons" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550872837810" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550955667512" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="findjar.last.used.dir" value="$APPLICATION_HOME_DIR$/lib" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -300,6 +338,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,14 +396,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550861495132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.2 создание структуры проекта">
+      <created>1550872865677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550872865677</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1799" y="23" width="1401" height="1703" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29212657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29654157" />
       <window_info id="Structure" order="1" weight="0.24944812" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -378,8 +424,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32808563" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50036794" side_tool="true" visible="true" weight="0.32808563" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4996321" visible="true" weight="0.32808563" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -424,7 +470,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.1 начало переделки пакета" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1 начало переделки пакета" />
+    <MESSAGE value="1.2 создание структуры проекта" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2 создание структуры проекта" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Packages/Microsoft.SkypeApp_kzf8qxf38zg5c/LocalState/Downloads/GpsNav.java" />
@@ -440,30 +487,9 @@
     <entry file="jar://$USER_HOME$/Downloads/commons-lang3-3.7.jar!/org/apache/commons/lang3/ArrayUtils.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Arrays.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/FileInputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#1196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rectangle.java" />
+    <entry file="file://$PROJECT_DIR$/src/Point.java" />
+    <entry file="file://$PROJECT_DIR$/src/MyClass.java" />
     <entry file="file://$PROJECT_DIR$/src/TagAsk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -485,6 +511,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -492,54 +541,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Header.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#2223#2224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sph/MCC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="86" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sph_05.java">
+    <entry file="file://$PROJECT_DIR$/src/Sph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Adress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="96" column="46" lean-forward="true" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
+        <state relative-caret-position="551">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sph/MNC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sph/LAC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="55" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sph/CELL_ID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1471,19 +1471,6 @@ public class Adress {
         }*/
 
         //switch ()
-
-
-
-
-
-
-
-
-
-
-
-
-
         /*if (MSG_ID == 802) {
             TagAsk.tags(TagAsk.id, TagAsk.tagSum);
             System.out.println(TagAsk.tagSum);
